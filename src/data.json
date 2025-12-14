@@ -1,0 +1,32 @@
+{
+    "skills":[
+        {
+            "id":1,
+            "title":"JavaScript",
+            "description": "Exceptuer sint occaecat cupidatat non pridenti sunt in cullpa qui officia deserunt mollit anim id est laborum"
+        },
+          {
+            "id":2,
+            "title":"React.Js",
+            "description": "Exceptuer sint occaecat cupidatat non pridenti sunt in cullpa qui officia deserunt mollit anim id est laborum"
+        },
+          {
+            "id":3,
+            "title":"Node.Js",
+            "description": "Exceptuer sint occaecat cupidatat non pridenti sunt in cullpa qui officia deserunt mollit anim id est laborum"
+        }
+    ],
+    "profiles": {
+    "basicInfo": [
+       { "label": "Doğum Tarihi", "value": "24.03.1996" },
+       { "label": "İkamet Şehri", "value": "Ankara" },
+       { "label": "Eğitim Durumu", "value": "Lisans"},
+       { "label": "Tercih Ettiği Rol", "value": "Frontend"}
+    ],
+    "aboutMe": {
+       "title": "About Me",
+       "paragraphs": ["Paragraf 1...", "Paragraf 2..."]
+    }
+}
+
+}

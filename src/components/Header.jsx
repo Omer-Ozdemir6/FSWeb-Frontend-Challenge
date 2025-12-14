@@ -29,7 +29,7 @@ const Header = () => {
                 </div>
             </div>
             <div className="flex-1 relative">
-                <img src="" alt=""/>
+                <img />
 
             </div>
         </section>
