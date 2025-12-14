@@ -6,7 +6,7 @@ const Projects = () => {
     return (
         <section id="projects" className="py-20">
       
-      <h2 className="text-4xl font-bold text-gray-800 dark:text-white mb-12">
+      <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-400 mb-12">
         Projects
       </h2>
 
@@ -28,7 +28,7 @@ const Projects = () => {
                     {project.title}
                 </h3>
                 
-                <p className="text-gray-600 dark:text-gray-300 mb-4 text-sm leading-relaxed line-clamp-3">
+                <p className="text-gray-600 dark:text-white mb-4 text-sm leading-relaxed line-clamp-3">
                     {project.description}
                 </p>
 
@@ -45,7 +45,7 @@ const Projects = () => {
                         href={project.github} 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="text-gray-800 dark:text-white font-medium hover:text-purple-600 underline"
+                        className="text-gray-800 dark:text-gray-400 font-medium hover:text-purple-600 underline"
                     >
                         Github
                     </a>
@@ -53,7 +53,7 @@ const Projects = () => {
                         href={project.site} 
                         target="_blank"
                         rel="noopener noreferrer" 
-                        className="text-gray-800 dark:text-white font-medium hover:text-purple-600 underline"
+                        className="text-gray-800 dark:text-gray-400 font-medium hover:text-purple-600 underline"
                     >
                         View Site
                     </a>

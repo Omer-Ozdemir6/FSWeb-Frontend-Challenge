@@ -31,10 +31,10 @@ const Navbar = () => {
             </div>
 
             <div className="hidden md:flex items-center gap-8 font-medium text-gray-600 dark:text-gray-400">
-                <a href="#skills" className="hover:text-purple-600 dark:hover:text-purple-400 transition">Skills</a>
-                <a href="#projects" className="hover:text-purple-600 dark:hover:text-purple-400 transition">Projects</a>
+                <a href="#skills" className="px-4 py-2 rounded transition hover:bg-purple-700 hover:text-white dark:hover:bg-white dark:hover:text-slate-900">Skills</a>
+                <a href="#projects" className="px-4 py-2 rounded transition hover:bg-purple-700 hover:text-white dark:hover:bg-white dark:hover:text-slate-900">Projects</a>
                 
-                <a href="#hireme" className="px-6 py-2 border border-purple-700 text-purple-700 dark:border-white dark:text-white rounded hover:bg-purple-700 hover:text-white dark:hover:bg-white dark:hover:text-slate-900 transition">
+                <a href="#hireme" className="px-4 py-2 rounded transition hover:bg-purple-700 hover:text-white dark:hover:bg-white dark:hover:text-slate-900">
                     Hire me
                 </a>
             </div>
