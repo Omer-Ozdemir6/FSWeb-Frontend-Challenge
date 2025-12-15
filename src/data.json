@@ -2,62 +2,133 @@
   "skills": [
     {
       "id": 1,
-      "title": "JavaScript",
-      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "details":{
+        "en":{
+          "title": "JavaScript",
+          "description": "A high-level, interpreted scripting language essential for modern web development (Frontend and Backend)."
+        },
+        "tr": {
+          "title": "JavaScript",
+          "description": "Modern web geliştirmede kritik rol oynayan (Frontend ve Backend) üst düzey, yorumlanan betik dili."
+        }
+      }
     },
     {
-      "id": 2,
-      "title": "React.Js",
-      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+     "id": 2,
+      "icon": "react.svg",
+      "details": {
+        "en": {
+          "title": "React.Js",
+          "description": "Building interactive user interfaces using component-based architecture and state management."
+        },
+        "tr": {
+          "title": "React.Js",
+          "description": "Bileşen tabanlı mimari ve durum yönetimi kullanarak etkileşimli kullanıcı arayüzleri oluşturma."
+        }
+      }
     },
     {
       "id": 3,
-      "title": "Node.Js",
-      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "icon": "node.svg",
+      "details": {
+        "en": {
+          "title": "Node.Js",
+          "description": "Using JavaScript runtime environment for building scalable server-side and network applications."
+        },
+        "tr": {
+          "title": "Node.Js",
+          "description": "Ölçeklenebilir sunucu tarafı ve ağ uygulamaları oluşturmak için JavaScript çalışma ortamını kullanma."
+        }
+      }
     }
   ],
-  "profiles": {
+"profiles": {
     "basicInfo": [
-      { "label": "Doğum Tarihi", "value": "24.03.1996" },
-      { "label": "İkamet Şehri", "value": "Ankara" },
-      { "label": "Eğitim Durumu", "value": "Lisans" },
-      { "label": "Tercih Ettiği Rol", "value": "Frontend" }
+      { 
+        "en": { "label": "Date of Birth", "value": "24.03.1996" },
+        "tr": { "label": "Doğum Tarihi", "value": "24.03.1996" }
+      },
+      { 
+        "en": { "label": "City of Residence", "value": "Ankara" },
+        "tr": { "label": "İkamet Şehri", "value": "Ankara" }
+      },
+      { 
+        "en": { "label": "Education Status", "value": "Bachelor's Degree" },
+        "tr": { "label": "Eğitim Durumu", "value": "Lisans" }
+      },
+      { 
+        "en": { "label": "Preferred Role", "value": "Frontend" },
+        "tr": { "label": "Tercih Ettiği Rol", "value": "Frontend" }
+      }
     ],
     "aboutMe": {
-      "title": "About Me",
-      "paragraphs": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-      ]
+      "en": {
+        "title": "About Me",
+        "paragraphs": [
+          "I am a passionate frontend developer specializing in React and modern JavaScript frameworks. I focus on creating fast, accessible, and high-quality user experiences.",
+          "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        ]
+      },
+      "tr": {
+        "title": "Hakkımda",
+        "paragraphs": [
+          "React ve modern JavaScript çatılarında uzmanlaşmış tutkulu bir frontend geliştiricisiyim. Hızlı, erişilebilir ve yüksek kaliteli kullanıcı deneyimleri oluşturmaya odaklanıyorum.",
+          "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        ]
+      }
     }
   },
   "projects": [
     {
       "id": 1,
-      "title": "WorkinTech",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "tags": ["react", "redux", "axios"],
       "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=600",
       "github": "#",
-      "site": "#"
+      "site": "#",
+      "details": {
+        "en": {
+          "title": "Project Pizza",
+          "description": "The Pizza project was the first software project I developed professionally. I think it taught me a lot."
+        },
+        "tr": {
+          "title": "Pizza Projesi",
+          "description": "Pizza projesi profesyonel olarak geliştirdiğim ilk yazılım projesidir. Bana çok şey kattığını düşünüyorum."
+        }
+      }
     },
     {
       "id": 2,
-      "title": "Random Jokes",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "tags": ["api", "axios"],
       "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=600",
       "github": "#",
-      "site": "#"
+      "site": "#",
+      "details": {
+        "en": {
+          "title": "Project TO-DO",
+          "description": "The TODO list project is a project that I designed myself, based on my own thoughts and needs, and I continue to design it so that I can test what I've learned."
+        },
+        "tr": {
+          "title": "TO-DO Projesi",
+          "description": "TODO list projem tasarımı bana ait olan ve kendi düşüncelerim ve gereksinimim doğrultusunda tasarladıgım ve tasarlamaya devam ettıgım öğrendiklerimi test edebildiğim bir projem."
+        }
+      }
     },
     {
       "id": 3,
-      "title": "Journey",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "tags": ["react", "redux", "axios"],
       "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=600",
       "github": "#",
-      "site": "#"
+      "site": "#",
+      "details": {
+        "en": {
+          "title": "Project ChatBot",
+          "description": "My project, with the support of Workintech, shows how to deploy a chatbot and how to create a simple, usable chatbot."
+        },
+        "tr": {
+          "title": "ChatBot Projesi",
+          "description": "Workintech'inde destegıyle bir chatbotun nasıl faaliyete alındığı ve kullanılabılen basıt bır chatbotun düzenlediğim projem"
+        }
+      }
     }
   ],
   "footer": {

@@ -1,10 +1,11 @@
 import React from "react"
 import { useSelector } from "react-redux";
+import { useLanguage } from "../context/LanguageContext";
 
 
 
 const Skills = () => {
-
+const { language, toggleLanguage, texts } = useLanguage()
 const skills = useSelector((state) => state.skillsState.data);
 return (
     <section id= "skills" className="py-20">
@@ -15,10 +16,10 @@ return (
         {skills.map((skill) => (
           <div key={skill.id} className="space-y-4">
             <h3 className="text-2xl font-medium text-purple-700 dark:text-purple-400">
-              {skill.title}
+              {skill.details[language].title}
             </h3>
             <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
-              {skill.description}
+              {skill.details[language].description}
             </p>
           </div>
         ))}

@@ -1,8 +1,9 @@
 import { useSelector } from "react-redux"
+import { useLanguage } from "../context/LanguageContext";
 
 const Projects = () => {
   const projects = useSelector((state) => state.projectState.projects);
-
+const { language, toggleLanguage, texts } = useLanguage()
     return (
         <section id="projects" className="py-20">
       
@@ -25,11 +26,11 @@ const Projects = () => {
 
             <div className="p-6 flex flex-col flex-1">
                 <h3 className="text-2xl font-bold text-purple-700 dark:text-purple-400 mb-3">
-                    {project.title}
+                    {project.details[language].title}
                 </h3>
                 
                 <p className="text-gray-600 dark:text-white mb-4 text-sm leading-relaxed line-clamp-3">
-                    {project.description}
+                    {project.details[language].description}
                 </p>
 
                 <div className="flex flex-wrap gap-2 mb-6">

@@ -1,9 +1,10 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from '../context/ThemeContext';
+import { useLanguage } from '../context/LanguageContext';
 
 const Navbar = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
-
+  const { language, toggleLanguage, texts } = useLanguage()
   return (
 
     <nav className="py-6 bg-white dark:bg-slate-900 transition-colors duration-300">
@@ -17,8 +18,8 @@ const Navbar = () => {
             </button>
 
             <span className="text-gray-300">|</span>
-            <button className="text-purple-600 hover:text-purple-700">
-                TÜRKÇE'YE GEÇ
+            <button onClick={toggleLanguage} className="text-purple-600 hover:text-purple-700">
+                {texts.nav.switch_lang}
             </button>
         </div>
         <div className="flex justify-between items-center">
@@ -31,11 +32,11 @@ const Navbar = () => {
             </div>
 
             <div className="hidden md:flex items-center gap-8 font-medium text-gray-600 dark:text-gray-400">
-                <a href="#skills" className="px-4 py-2 rounded transition hover:bg-purple-700 hover:text-white dark:hover:bg-white dark:hover:text-slate-900">Skills</a>
-                <a href="#projects" className="px-4 py-2 rounded transition hover:bg-purple-700 hover:text-white dark:hover:bg-white dark:hover:text-slate-900">Projects</a>
+                <a href="#skills" className="px-4 py-2 rounded transition hover:bg-purple-700 hover:text-white dark:hover:bg-white dark:hover:text-slate-900">{texts.nav.skills}</a>
+                <a href="#projects" className="px-4 py-2 rounded transition hover:bg-purple-700 hover:text-white dark:hover:bg-white dark:hover:text-slate-900">{texts.nav.projects}</a>
                 
                 <a href="#hireme" className="px-4 py-2 rounded transition hover:bg-purple-700 hover:text-white dark:hover:bg-white dark:hover:text-slate-900">
-                    Hire me
+                    {texts.nav.hire_me}
                 </a>
             </div>
         </div>

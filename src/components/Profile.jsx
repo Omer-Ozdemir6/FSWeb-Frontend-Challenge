@@ -1,42 +1,43 @@
 import { useSelector } from "react-redux"
+import { useLanguage } from "../context/LanguageContext";
 
 
 
 const Profile = () => {
     const profiles = useSelector((state) => state.profileState );
-
+      const { language, toggleLanguage, texts } = useLanguage()
     const{basicInfo, aboutMe } = profiles;
 
     return  (
 
 <section className="py-20">
       <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-400 mb-12">
-        Profile
+        {texts.profiles.profiles}
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         <div className="space-y-6">
             <h3 className="text-2xl font-medium text-purple-700 dark:text-purple-400">
-                Profile
+                {texts.profiles.profile}
             </h3>
             <div className="space-y-4 text-gray-600 dark:text-gray-400">
                 {basicInfo.map((item, index) => (
                     <div key={index} className="grid grid-cols-2">
                         <span className="font-bold text-gray-800 dark:text-white">
-                            {item.label}
+                            {item[language].label}:
                         </span>
-                        <span>{item.value}</span>
+                        <span>{item[language].value}</span>
                     </div>
                 ))}
             </div>
         </div>
         <div className="space-y-6">
             <h3 className="text-2xl font-medium text-purple-700 dark:text-purple-400">
-                {aboutMe.title}
+                {aboutMe[language].title}
             </h3>
             
             <div className="text-gray-600 dark:text-gray-400 space-y-4 leading-relaxed">
                  
-                {aboutMe.paragraphs.map((p, index) => (
+                {aboutMe[language].paragraphs.map((p, index) => (
                     <p key={index}>{p}</p>
                 ))}
             </div>

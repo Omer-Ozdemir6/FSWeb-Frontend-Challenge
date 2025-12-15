@@ -1,8 +1,10 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+import { useLanguage } from '../context/LanguageContext';
 
 const Footer = () => {
   const footerData = useSelector((state) => state.footerState);
+  const { language, toggleLanguage, texts } = useLanguage()
   const { title, text, email, links } = footerData || {};
 
   if (!title) return null;
@@ -16,10 +18,10 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
             <div className="max-w-xl space-y-4">
                 <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-400">
-                    {title}
+                    {texts.footer.title_1}
                 </h2>
                 <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
-                    {text}
+                    {texts.footer.title_2}
                 </p>
             </div>
         </div>
