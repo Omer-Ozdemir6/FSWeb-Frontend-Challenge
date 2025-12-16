@@ -100,29 +100,12 @@
     }
   },
   "projects": [
-    {
+     {
       "id": 1,
-      "tags": ["react","axios"],
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=600",
-      "github": "https://github.com/Omer-Ozdemir6/s8-challenge-pizza",
-      "site": "#",
-      "details": {
-        "en": {
-          "title": "Project Pizza",
-          "description": "The Pizza project was the first software project I developed professionally. I think it taught me a lot."
-        },
-        "tr": {
-          "title": "Pizza Projesi",
-          "description": "Pizza projesi profesyonel olarak geliştirdiğim ilk yazılım projesidir. Bana çok şey kattığını düşünüyorum."
-        }
-      }
-    },
-    {
-      "id": 2,
       "tags": ["api", "axios", "redux"],
-      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=600",
+      "image": "../images/projects/to-do-list.png",
       "github": "https://github.com/Omer-Ozdemir6/to-do-list-hub",
-      "site": "#",
+      "site": "https://to-do-list-hub-inky.vercel.app",
       "details": {
         "en": {
           "title": "Project TO-DO",
@@ -135,11 +118,28 @@
       }
     },
     {
+      "id": 2,
+      "tags": ["react","axios"],
+      "image": "../images/projects/pizza-project.png",
+      "github": "https://github.com/Omer-Ozdemir6/s8-challenge-pizza",
+      "site": "https://s8-challenge-pizza-dusky.vercel.app",
+      "details": {
+        "en": {
+          "title": "Project Pizza",
+          "description": "The Pizza project was the first software project I developed professionally. I think it taught me a lot."
+        },
+        "tr": {
+          "title": "Pizza Projesi",
+          "description": "Pizza projesi profesyonel olarak geliştirdiğim ilk yazılım projesidir. Bana çok şey kattığını düşünüyorum."
+        }
+      }
+    },
+    {
       "id": 3,
       "tags": ["react"],
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=600",
+      "image": "../images/projects/chatbot.png",
       "github": "https://github.com/Omer-Ozdemir6/Chatbot-Demo-Project",
-      "site": "#",
+      "site": "https://chatbot-demo-project.vercel.app",
       "details": {
         "en": {
           "title": "Project ChatBot",
