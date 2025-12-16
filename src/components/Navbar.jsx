@@ -1,10 +1,21 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from '../context/ThemeContext';
 import { useLanguage } from '../context/LanguageContext';
+import { useDispatch } from 'react-redux';
+import { languageAction } from '../store/actions/languageAction';
 
 const Navbar = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
   const { language, toggleLanguage, texts } = useLanguage()
+  const dispatch = useDispatch();
+
+  const handleLanguageChange = () => {
+    const nextLanguage = language === "en" ? "tr" : "en"
+
+    toggleLanguage()
+    dispatch(languageAction(nextLanguage));
+  } 
+  
   return (
 
     <nav className="py-6 bg-white dark:bg-slate-900 transition-colors duration-300">
@@ -18,7 +29,7 @@ const Navbar = () => {
             </button>
 
             <span className="text-gray-300">|</span>
-            <button onClick={toggleLanguage} className="text-purple-600 hover:text-purple-700">
+            <button onClick={handleLanguageChange} className="text-purple-600 hover:text-purple-700">
                 {texts.nav.switch_lang}
             </button>
         </div>
