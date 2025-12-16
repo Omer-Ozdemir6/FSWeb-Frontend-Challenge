@@ -103,7 +103,7 @@
      {
       "id": 1,
       "tags": ["api", "axios", "redux"],
-      "image": "../images/projects/to-do-list.png",
+      "image": "/images/projects/to-do-list.png",
       "github": "https://github.com/Omer-Ozdemir6/to-do-list-hub",
       "site": "https://to-do-list-hub-inky.vercel.app",
       "details": {
@@ -120,7 +120,7 @@
     {
       "id": 2,
       "tags": ["react","axios"],
-      "image": "../images/projects/pizza-project.png",
+      "image": "/images/projects/pizza-project.png",
       "github": "https://github.com/Omer-Ozdemir6/s8-challenge-pizza",
       "site": "https://s8-challenge-pizza-dusky.vercel.app",
       "details": {
@@ -137,7 +137,7 @@
     {
       "id": 3,
       "tags": ["react"],
-      "image": "../images/projects/chatbot.png",
+      "image": "/images/projects/chatbot.png",
       "github": "https://github.com/Omer-Ozdemir6/Chatbot-Demo-Project",
       "site": "https://chatbot-demo-project.vercel.app",
       "details": {
