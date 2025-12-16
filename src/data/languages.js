@@ -9,7 +9,7 @@ export const languageData = {
         header:{
             title_p1:"CREATIVE THINKER" ,
             title_p2: "MINIMALISM LOVER",
-            summary:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            summary:"Hi, I’m Ömer. I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me.",
             contact: "Hire Me"
 
         },
@@ -39,7 +39,7 @@ export const languageData = {
         },
         footer:{
             title_1:"Let's work together on your next product",
-            title_2:"extra text section to be added"
+            title_2:"contact me"
         }
     },
     tr:{
@@ -52,7 +52,7 @@ export const languageData = {
         header:{
             title_p1:"YARATICI DÜŞÜNÜR" ,
             title_p2: "MİNİMALİZM AŞIĞI",
-            summary:"Lorem Ipsum, matbaa ve dizgi sektörünün standart sahte metnidir. Lorem Ipsum, 1500'lerden beri, bilinmeyen bir matbaacının bir tipo kalıbını alıp karıştırarak bir tipo örnek kitabı oluşturmasından bu yana sektörün standart sahte metni olmuştur. Sadece beş yüzyılı değil, aynı zamanda elektronik dizgiye geçişi de atlatmış ve esasen değişmeden kalmıştır. 1960'larda Lorem Ipsum pasajları içeren Letraset sayfalarının piyasaya sürülmesiyle ve daha yakın zamanlarda Aldus PageMaker gibi masaüstü yayıncılık yazılımlarının Lorem Ipsum sürümlerini içermesiyle popüler hale gelmiştir.",
+            summary:"Merhaba, ben Ömer. Frontend geliştiriciyim. Sağlam ve ölçeklenebilir, harika kullanıcı deneyimleri sunan ürünler geliştirecek bir geliştirici arıyorsanız, gelin benimle iletişime geçin.",
             contact: "İletişime Geç"
         },
         skills:{
@@ -80,7 +80,7 @@ export const languageData = {
         },
         footer:{
             title_1:"Bir sonraki ürününüz üzerinde birlikte çalışalım.",
-            title_2:"Ek metin bölümü eklenecek."
+            title_2:"Benimle iletişime geçin."
         }
     }
 }

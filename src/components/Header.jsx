@@ -9,7 +9,7 @@ const Header = () => {
             <div className="flex-1 space-y-6">
                 <div className="flex items-center gap-3">
                     <div className="w-10 h-[1px] bg-purple-600"></div>
-                    <span className="text-purple-600 font-medium">DENEME YAZISI</span>
+                    <span className="text-purple-600 font-medium">ÖMER ÖZDEMİR</span>
                 </div>
                 <h1 className="text-5xl md:text-7xl font bold text-gray-800 dark:text-gray-400 leading-tight">
                     {texts.header.title_p1} <br/>
@@ -19,21 +19,21 @@ const Header = () => {
                     {texts.header.summary}
                 </p>
                 <div className="flex flex-wrap gap-4 pt-4">
-                    <button className="px-6 py-3 rounded-lg transition-colors duration-200 
+                    <a href="byozdemir06@gmail.com" className="px-6 py-3 rounded-lg transition-colors duration-200 
                                font-medium bg-white border border-purple-700 text-purple-700 
                                dark:border-purple-300 dark:text-purple-300 dark:bg-gray-600 hover:bg-purple-700 hover:text-white dark:hover:text-black dark:hover:bg-purple-300">
                         {texts.header.contact}
-                    </button>
-                    <button className="px-6 py-3 rounded-lg transition-colors duration-200 
+                    </a>
+                    <a href="https://github.com/Omer-Ozdemir6" className="px-6 py-3 rounded-lg transition-colors duration-200 
                                font-medium bg-white border border-purple-700 text-purple-700 
                                dark:border-purple-300 dark:text-purple-300 dark:bg-gray-600 hover:bg-purple-700 hover:text-white dark:hover:text-black dark:hover:bg-purple-300">
                     <i className="fa-brands fa-github"></i> Github
-                    </button>
-                     <button className="px-6 py-3 rounded-lg transition-colors duration-200 
+                    </a>
+                     <a href="https://www.linkedin.com/in/ömer-özdemir-178bb116b/" className="px-6 py-3 rounded-lg transition-colors duration-200 
                                font-medium bg-white border border-purple-700 text-purple-700 
                                dark:border-purple-300 dark:text-purple-300 dark:bg-gray-600 hover:bg-purple-700 hover:text-white dark:hover:text-black dark:hover:bg-purple-300">
                     <i className="fa-brands fa-linkedin"></i> Linkedin
-                    </button>
+                    </a>
                 </div>
             </div>
             <div className="flex-1 relative">

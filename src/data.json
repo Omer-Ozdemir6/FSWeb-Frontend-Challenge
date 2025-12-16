@@ -1,4 +1,27 @@
 {
+  "headers": [
+        {
+            "id": "contact",
+            "text_tr": "İletişim",
+            "text_en": "Contact",
+            "url": "", 
+            "icon_class": ""
+        },
+        {
+            "id": "github",
+            "text_tr": "Github",
+            "text_en": "Github",
+            "url": "", 
+            "icon_class": "fa-brands fa-github"
+        },
+        {
+            "id": "linkedin",
+            "text_tr": "Linkedin",
+            "text_en": "Linkedin",
+            "url": "", 
+            "icon_class": "fa-brands fa-linkedin"
+        }
+    ],
   "skills": [
     {
       "id": 1,
@@ -45,8 +68,8 @@
 "profiles": {
     "basicInfo": [
       { 
-        "en": { "label": "Date of Birth", "value": "24.03.1996" },
-        "tr": { "label": "Doğum Tarihi", "value": "24.03.1996" }
+        "en": { "label": "Date of Birth", "value": "06.03.1995" },
+        "tr": { "label": "Doğum Tarihi", "value": "06.03.1995" }
       },
       { 
         "en": { "label": "City of Residence", "value": "Ankara" },
@@ -57,23 +80,21 @@
         "tr": { "label": "Eğitim Durumu", "value": "Lisans" }
       },
       { 
-        "en": { "label": "Preferred Role", "value": "Frontend" },
-        "tr": { "label": "Tercih Ettiği Rol", "value": "Frontend" }
+        "en": { "label": "Preferred Role", "value": "Frontend Developer" },
+        "tr": { "label": "Tercih Ettiği Rol", "value": "Frontend Developer" }
       }
     ],
     "aboutMe": {
       "en": {
         "title": "About Me",
         "paragraphs": [
-          "I am a passionate frontend developer specializing in React and modern JavaScript frameworks. I focus on creating fast, accessible, and high-quality user experiences.",
-          "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+          "I've built a solid foundation in HTML, CSS, JavaScript, and React. I've started working on active projects focusing on designing and developing user-friendly interfaces. My current goal is to quickly complete my Full-Stack skills and join the technology world as a Junior Developer who not only writes code but also adds value with analytical thinking skills. I would be happy to connect with experienced programmers who can offer junior-level positions or mentor me throughout this process. I'm always open to your help and support."
         ]
       },
       "tr": {
         "title": "Hakkımda",
         "paragraphs": [
-          "React ve modern JavaScript çatılarında uzmanlaşmış tutkulu bir frontend geliştiricisiyim. Hızlı, erişilebilir ve yüksek kaliteli kullanıcı deneyimleri oluşturmaya odaklanıyorum.",
-          "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+          "HTML, CSS, JavaScript ve React konularında sağlam bir temel edindim. Kullanıcı dostu arayüzler tasarlama ve geliştirme konusunda aktif projeler üzerinde çalışmalara başladım.Şu anki amacım, hızla Full-Stack yetkinliğini tamamlamak ve teknoloji dünyasına sadece kod yazan değil, aynı zamanda analitik düşünce gücüyle katma değer sağlayan bir Junior Geliştirici olarak katılmak.Junior seviyesi pozisyonlar veya bu süreçte bana mentorluk sağlayabilecek tecrübeli yazılımcılarla bağlantı kurmaktan mutluluk duyarım. Yardım ve desteğinize her zaman açığım."
         ]
       }
     }
@@ -81,9 +102,9 @@
   "projects": [
     {
       "id": 1,
-      "tags": ["react", "redux", "axios"],
+      "tags": ["react","axios"],
       "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=600",
-      "github": "#",
+      "github": "https://github.com/Omer-Ozdemir6/s8-challenge-pizza",
       "site": "#",
       "details": {
         "en": {
@@ -98,9 +119,9 @@
     },
     {
       "id": 2,
-      "tags": ["api", "axios"],
+      "tags": ["api", "axios", "redux"],
       "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=600",
-      "github": "#",
+      "github": "https://github.com/Omer-Ozdemir6/to-do-list-hub",
       "site": "#",
       "details": {
         "en": {
@@ -115,9 +136,9 @@
     },
     {
       "id": 3,
-      "tags": ["react", "redux", "axios"],
+      "tags": ["react"],
       "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=600",
-      "github": "#",
+      "github": "https://github.com/Omer-Ozdemir6/Chatbot-Demo-Project",
       "site": "#",
       "details": {
         "en": {
@@ -134,10 +155,10 @@
   "footer": {
     "title": "Send me a message!",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "email": "almilasu@example.com",
+    "email": "byozdemir06@gmail.com",
     "links": [
-      { "name": "Github", "url": "#" },
-      { "name": "Linkedin", "url": "#" }
+      { "name": "Github", "url": "https://github.com/Omer-Ozdemir6" },
+      { "name": "Linkedin", "url": "https://www.linkedin.com/in/ömer-özdemir-178bb116b/" }
     ]
   }
 }

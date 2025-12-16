@@ -46,7 +46,7 @@ const Navbar = () => {
                 <a href="#skills" className="px-4 py-2 rounded transition hover:bg-purple-700 hover:text-white dark:hover:bg-white dark:hover:text-slate-900">{texts.nav.skills}</a>
                 <a href="#projects" className="px-4 py-2 rounded transition hover:bg-purple-700 hover:text-white dark:hover:bg-white dark:hover:text-slate-900">{texts.nav.projects}</a>
                 
-                <a href="#hireme" className="px-4 py-2 rounded transition hover:bg-purple-700 hover:text-white dark:hover:bg-white dark:hover:text-slate-900">
+                <a href="#footer" className="px-4 py-2 rounded transition hover:bg-purple-700 hover:text-white dark:hover:bg-white dark:hover:text-slate-900">
                     {texts.nav.hire_me}
                 </a>
             </div>

@@ -35,8 +35,8 @@ const { language, toggleLanguage, texts } = useLanguage()
 
                 <div className="flex flex-wrap gap-2 mb-6">
                     {project.tags.map((tag, idx) => (
-                        <span key={idx} className="px-3 py-1 text-xs border border-purple-300 text-purple-600 dark:border-purple-800 dark:text-purple-300 rounded-full">
-                            #{tag}
+                        <span key={idx} className="px-3 py-1 text-xs border border-purple-300 text-purple-600dark:border-purple-300 dark:text-purple-300 dark:bg-gray-600 hover:bg-purple-700 rounded-full">
+                            {tag}
                         </span>
                     ))}
                 </div>
