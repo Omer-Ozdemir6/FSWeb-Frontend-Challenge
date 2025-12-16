@@ -21,15 +21,15 @@ const Navbar = () => {
     <nav className="py-6 bg-white dark:bg-slate-900 transition-colors duration-300">
         <div className="flex justify-end items-center gap-6 mb-4 text-sm font-bold text-gray-600 dark:text-gray-300">
 
-            <button onClick={toggleTheme} className="flex items-center gap-2 hover:text-purple-600 transition">
+            <button onClick={toggleTheme} className="flex items-center gap-2 hover:text-purple-600 transition" data-cy="toggle-theme">
                 <div className={`w-8 h-4 rounded-full p-0.5 flex items-center ${theme === 'dark' ? 'bg-purple-600 justify-end' : 'bg-gray-300 justify-start'}`}>
                     <div className="w-3 h-3 bg-white rounded-full shadow-md"></div>
                 </div>
-                <span>{theme === 'light' ? 'DARK MODE' : 'LIGHT MODE'}</span>
+                <span>{theme === 'light' ? 'LIGHT MODE' : 'DARK MODE'}</span>
             </button>
 
             <span className="text-gray-300">|</span>
-            <button onClick={handleLanguageChange} className="text-purple-600 hover:text-purple-700">
+            <button onClick={handleLanguageChange} className="text-purple-600 hover:text-purple-700" data-cy="toggle-language">
                 {texts.nav.switch_lang}
             </button>
         </div>
